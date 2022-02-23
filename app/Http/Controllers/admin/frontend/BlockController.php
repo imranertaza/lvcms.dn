@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 class BlockController extends Controller
 {
     public function index(){
-        print view("admin.frontend.dashboard.dashboard");
+        return view("admin.frontend.blocks.all-block");
+    }
+    public function create(){
+        return view("admin.frontend.blocks.add-block");
     }
 }

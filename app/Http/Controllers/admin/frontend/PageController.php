@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function index(){
-        print view("admin.frontend.dashboard.dashboard");
+        return view("admin.frontend.pages.all-page");
+    }
+    public function create(){
+        return view("admin.frontend.pages.add-page");
     }
 }

@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class ImageGalleryController extends Controller
 {
     public function index(){
-        print view("admin.frontend.dashboard.dashboard");
+        return view("admin.frontend.imagegallery.imagegallery");
     }
 }

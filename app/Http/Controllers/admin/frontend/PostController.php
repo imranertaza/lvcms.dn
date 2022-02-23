@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
     public function index(){
-        print view("admin.frontend.dashboard.dashboard");
+        return view("admin.frontend.posts.all-post");
+    }
+    public function create(){
+        return view("admin.frontend.posts.add-post");
     }
 }

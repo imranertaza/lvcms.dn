@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 class CategoryController extends Controller
 {
     public function index(){
-        print view("admin.frontend.dashboard.dashboard");
+        return view("admin.frontend.category.allcategory");
+    }
+    public function create(){
+        return view("admin.frontend.category.addcategory");
     }
 }
