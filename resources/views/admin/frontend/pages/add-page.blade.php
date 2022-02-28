@@ -28,10 +28,14 @@
                             <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                             <span>Please keep the title here</span>
                         </div>
+                            <div class="form-group">
+                                <label for="Description">Description</label>
+                                <textarea class="form-control" id="summernote" rows="6"></textarea>
+                            </div>
                         <div class="row">
                             <div class="form-group col-lg-8">
                                 <label>Short Description</label>
-                                <textarea class="form-control" name="short_description" rows="3" required=""></textarea>
+                                <textarea class="form-control" name="short_description" rows="3" required></textarea>
                                 <p class="help-block">The page short description will be here but it will not show into
                                     the main description.</p>
                             </div>
@@ -52,8 +56,9 @@
                             </div>
                         </div>
                         <div class="form-group col-lg-8">
-                          <button type="submit" name="add_page" class="btn btn-default btn btn-primary">Add New</button>
-                      </div>
+                            <button type="submit" name="add_page" class="btn btn-default btn btn-primary">Add
+                                New</button>
+                        </div>
                     </div>
                     <!-- /.card-body -->
                 </form>

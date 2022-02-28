@@ -38,5 +38,25 @@
 <script src="{{url('dist/js/demo.js')}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{url('dist/js/pages/dashboard2.js')}}"></script>
+<!-- Summernote -->
+<script src="../../plugins/summernote/summernote-bs4.min.js"></script>
+<!-- CodeMirror -->
+<script src="{{ url('plugins/codemirror/codemirror.js') }}"></script>
+<script src="{{ url('plugins/codemirror/mode/css/css.js') }}"></script>
+<script src="{{ url('plugins/codemirror/mode/xml/xml.js') }}"></script>
+<script src="{{ url('plugins/codemirror/mode/htmlmixed/htmlmixed.js') }}"></script>
+<!-- Page specific script -->
+<script>
+    $(function () {
+      // Summernote
+      $('#summernote').summernote()
+  
+      // CodeMirror
+      CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+        mode: "htmlmixed",
+        theme: "monokai"
+      });
+    })
+  </script>
 </body>
 </html>

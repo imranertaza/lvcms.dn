@@ -31,7 +31,14 @@
                                 <td>Gecko</td>
                                 <td>Mozilla 1.0</td>
                                 <td>Win 95+ / OSX.1+</td>
-                                <td>1</td>
+                                <td class="center">
+                                    <a href="" class="btn btn-primary take_margin" title="Edit" >
+                                      <i class="fa-solid fa-pen-to-square"></i>
+                                    </a>
+                                    <a href="" class="btn btn-danger take_margin" title="Delete">
+                                      <i class="fa-solid fa-trash-can"></i>
+                                    </a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>

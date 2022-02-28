@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class LoginController extends Controller
 {
     public function index(){
-        print view("admin.frontend.dashboard.dashboard");
+        return view("admin.frontend.login.login");
     }
 }

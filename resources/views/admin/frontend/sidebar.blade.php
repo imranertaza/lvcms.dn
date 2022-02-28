@@ -193,12 +193,6 @@
                                 <p>Role </p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="{{url('admin/login')}}" class="nav-link {{ Request::is('admin/login') ? 'active': '' }} ">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Login </p>
-                            </a>
-                        </li>
                     </ul>
                 </li>
             </ul>
